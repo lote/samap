@@ -1,0 +1,23 @@
+commit d4274a45f0c37949c6d87755800499bf8c5c9c76
+Author: Latem <latem@localhost.localdomain>
+Date:   Wed Jul 3 22:41:31 2013 +0300
+
+    Finish static pages
+
+commit 4a560a1fb5fdd297f498bfa5c71422dcd7d6b575
+Author: Latem <latem@localhost.localdomain>
+Date:   Wed Jul 3 19:28:24 2013 +0300
+
+    Add a StaticPages controller
+
+commit 6bcb15f24292795d70d02bf85a7007b395909c62
+Author: Latem <latem@localhost.localdomain>
+Date:   Wed Jul 3 14:02:10 2013 +0300
+
+    Improve the README
+
+commit 7a41b3f7884ae33b66cc656357f35e7cb9f81fd5
+Author: Latem <latem@localhost.localdomain>
+Date:   Wed Jul 3 13:53:54 2013 +0300
+
+    Initial commit
