@@ -4,7 +4,7 @@
     Posted <%= time_ago_in_words(micropost.created_at) %> ago.
   </span>
   <% if current_user?(micropost.user) %>
-    <%= link_to "Удалить", micropost, method: :delete,
+    <%= link_to "delete", micropost, method: :delete,
                                      data: { confirm: "Вы уверены?" },
                                      title: micropost.content %>
   <% end %>

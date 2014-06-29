@@ -12,7 +12,7 @@
       <%= f.label :Эмеил %>
       <%= f.text_field :email %>
 
-      <%= f.label :Пароль %>
+      <%= f.label :password %>
       <%= f.password_field :password %>
 
       <%= f.label :password_confirmation, "Подтверждение" %>

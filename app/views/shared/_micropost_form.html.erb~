@@ -3,5 +3,5 @@
   <div class="field">
     <%= f.text_area :content, placeholder: "Напишите новое сообщение..." %>
   </div>
-  <%= f.submit "Написать", class: "btn btn-large btn-primary" %>
+  <%= f.submit "OTnPABUTb", class: "btn btn-large btn-primary" %>
 <% end %>

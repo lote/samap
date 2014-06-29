@@ -49,14 +49,14 @@ class UsersController < ApplicationController
   end
 
   def following
-    @title = "Читаемые"
+    @title = "Following"
     @user = User.find(params[:id])
     @users = @user.followed_users.paginate(page: params[:page])
     render 'show_follow'
   end
 
   def followers
-    @title = "Читатели"
+    @title = "Followers"
     @user = User.find(params[:id])
     @users = @user.followers.paginate(page: params[:page])
     render 'show_follow'
@@ -67,7 +67,7 @@ class UsersController < ApplicationController
     def signed_in_user
       unless signed_in?
         store_location
-        redirect_to signin_url, notice: "Пожалуйста зайдите в систему."
+        redirect_to signin_url, notice: "Please sign in."
       end
     end
 

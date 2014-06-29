@@ -6,7 +6,7 @@
     <ul>
       <li><%= link_to "О нас",   about_path %></li>
       <li><%= link_to "Контакты", contact_path %></li>
-      
+      <li><a href="http://news.railstutorial.org/">Новости</a></li>
     </ul>
   </nav>
 </footer>

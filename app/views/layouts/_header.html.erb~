@@ -3,7 +3,7 @@
     <div class="container">
       <nav>
         <ul class="nav pull-right">
-          <li><%= link_to "Домой", root_path %></li>
+          <li><%= link_to "Дом", root_path %></li>
           <li><%= link_to "Помощь", help_path %></li>
           <% if signed_in? %>
             <li><%= link_to "Сообщество", users_path %></li>
